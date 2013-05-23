@@ -7,11 +7,12 @@ Find the largest prime factor of a number
 
 This is a code challenge anyone can join in. The goal is to find the largest prime factor of a number.
 
-*** Example ***
+***Example***
+
 The largest prime factor of 13195 is 29, while the largest prime factor of 5 is 5
 What is it for number 'x'
 
-** Requirements **
+**Requirements**
 
 * find the greastest prime number of any given number
 * only return the greatest number
