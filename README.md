@@ -37,4 +37,4 @@ Also rspec tests are enouraged highly.
   * [Kata Starter](http://github.com/abrahamoshel/kata_starter)
 
 After you submit your solution if you want to see the rating of your code visit
-[Kata Starter](https://codeclimate.com/github/example-apps/largest_prime)
+[Code Climate](https://codeclimate.com/github/example-apps/largest_prime)
