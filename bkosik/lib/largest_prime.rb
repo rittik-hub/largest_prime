@@ -19,7 +19,7 @@ class LargestPrime
 		return largest_prime
 	end
 
-	def find_largest_prime_nubmer
+	def find_largest_prime_number
 		odd_numbers_not_divisible_by_three
 		divide_numbers_by_range_and_itself
 		largest_prime = @only_prime_numbers.max
