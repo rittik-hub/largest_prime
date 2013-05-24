@@ -7,7 +7,7 @@ class LargestPrime
 		@number = number
 	end
 
-	def find_largest_prime
+	def find_largest_prime_factor
 		return "Input must be an integer" unless number.is_a?(Integer)
 		if @number < 4
 			largest_prime = @number
@@ -15,10 +15,14 @@ class LargestPrime
 			# Ruby 1.9.3 has Prime class that will find this easily. Try manual way
 			largest_prime_array = Prime.prime_division(@number)
 			largest_prime = largest_prime_array.last.first
-			# odd_numbers_not_divisible_by_three
-			# divide_numbers_by_range_and_itself
-			# largest_prime = @only_prime_numbers.max
 		end
+		return largest_prime
+	end
+
+	def find_largest_prime_nubmer
+		odd_numbers_not_divisible_by_three
+		divide_numbers_by_range_and_itself
+		largest_prime = @only_prime_numbers.max
 		return largest_prime
 	end
 
