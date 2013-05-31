@@ -12,6 +12,6 @@ puts "Enter a number & I will tell you its largest prime number" # exec "say hel
 number = gets.chomp.to_i
 
 # make it happen here...
-largest_prime_number = LargestPrimeFactor.do_it_to_it(number)
+largest_prime_number = LargestPrimeFactor.look_on_the_internet_for_someone_elses_brilliant_solution(number)
 
 puts "For the number #{number}, the largest prime number is $#{largest_prime_number}.\n"
