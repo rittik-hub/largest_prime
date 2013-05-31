@@ -8,7 +8,7 @@
 ### Option #2
 1. irb
 2. load 'lib/factor.rb'
-3. LargestPrime.new(x).largest
+3. PrimeFactor.new(x).largest
 
 ### Option #3
 1. irb
